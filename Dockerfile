@@ -71,6 +71,9 @@ COPY  ./packages/crypto-wallet-core/package-lock.json ./packages/crypto-wallet-c
 COPY  ./packages/bitcore-lib-ltc/package.json ./packages/bitcore-lib-ltc/package.json
 COPY  ./packages/bitcore-lib-ltc/package-lock.json ./packages/bitcore-lib-ltc/package-lock.json
 
+COPY  ./packages/bitcore-lib-dsv/package.json ./packages/bitcore-lib-dsv/package.json
+COPY  ./packages/bitcore-lib-dsv/package-lock.json ./packages/bitcore-lib-dsv/package-lock.json
+
 
 RUN npm install
 RUN npm run bootstrap

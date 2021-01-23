@@ -41,6 +41,8 @@
     "ci:bitcore-lib-cash": "./ci.sh 'npm run test:bitcore-lib-cash'",
     "test:bitcore-lib-ltc": "cd ./packages/bitcore-lib-ltc && npm run test",
     "ci:bitcore-lib-ltc": "./ci.sh 'npm run test:bitcore-lib-ltc'",
+    "test:bitcore-lib-dsv": "cd ./packages/bitcore-lib-dsv && npm run test",
+    "ci:bitcore-lib-dsv": "./ci.sh 'npm run test:bitcore-lib-dsv'",    
     "test:bitcore-p2p": "cd ./packages/bitcore-p2p && npm run test",
     "ci:bitcore-p2p": "./ci.sh 'npm run test:bitcore-p2p'",
     "test:bitcore-p2p-cash": "cd ./packages/bitcore-p2p-cash && npm run test",
